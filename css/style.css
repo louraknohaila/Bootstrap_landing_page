@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.image0{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+}
+.nav-link{
+    color: white!important;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+#nav-link{
+    color:rgb(73, 245, 254)!important;
+}
+.nav-link:hover{
+    color:rgb(73, 245, 254)!important;
+}
+.nunu{
+    color:rgb(73, 245, 254)!important;
+}
+.h21{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.image1{
+    color : white;
+  position : absolute;
+  left: 50%;
+  top: 45%;
+  text-align: center;
+  transform: translate(-50% , -50%);
+}
+.btn1{
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.331);
+}
+#features{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    position :relative;
+    top: 60%;
+    left: 34%;
+    transform: translate(-50% , -50%);
+}
+.bi{
+    text-align: center;
+    background-color: rgb(73, 245, 254);
+   padding: 15px 20px;
+   color : white;
+   font-size: 40px;
+    border-radius: 50%;
+   
+}
+.h31{
+    margin-top: 20px;
+}
+.col0{
+    text-align: center;
+    margin-bottom: 35px;
+}
+#portfolio{
+    width: 100%;
+    height: 100vh;
+}
+#pricing{
+    width: 100%;
+    height: 100vh;
+}
+#team{
+    width: 100%;
+    height: 100vh;
+}
+#skills{
+    width: 100%;
+    height: 100vh;
+}
+#clients{
+    width: 100%;
+    height: 100vh;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+}
+.titre1{
+    position : relative;
+    top: 15%;
+    text-align: center;
+    z-index: 5;
+}
+.h22{
+    font-weight: 600;
+    color: rgb(47, 47, 47);
+  
+
+}
+.titre1::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    left: 50%;
+    transform: translateX(-48%);
+    background-color: rgb(73, 245, 254);
+ 
+}
+
+.c2{
+    text-align: center;
+}
+.immg{
+   
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    transition: all 5s infinite;
+    transition-duration: 1s;
+}
+.immg:hover{
+    cursor: pointer;
+    padding: 20px;
+ }
+.contenu1{
+    position : relative;
+    top: 25%;
+}
+.v1{
+    width: 400px;
+    height: 500px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.064),
+                  -5px -5px 15px rgba(0, 0, 0, 0.064); 
+    position : relative;
+    border-top:5px solid rgb(73, 245, 254);
+    
+  }
+hr{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border :2px solid rgb(132, 131, 131);
+}
+p{
+    margin: 25px;
+}
+.h31{
+    margin-top: 25px;
+}
+.R1{
+    position : relative;
+    top: 30%;
+    text-align: center;
+    left: 55%;
+    transform: translateX(-50%);
+ 
+}
+.az{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.444);
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  
+}
+.btn3{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(73, 245, 254);
+    position: absolute;
+    border: none;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  
+}
+.span0{
+    color: rgb(73, 245, 254);
+    font-weight: 700;
+}
+.image3{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+}
+.igg{
+    width: 400px;
+    height: 300px;
+   
+}
+
+.b1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    position : relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    margin-bottom: 20px;
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.333);
+}
+
+.a{
+    text-align: center;
+    color: rgb(73, 245, 254);
+    background-color: transparent;
+   padding: 15px 20px;
+   font-size: 30px;
+    border-radius: 50%; 
+}
+.ceo{
+    color: rgb(73, 245, 254);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.R2{
+    position: relative;
+    bottom: 630px;
+    padding-bottom: 20px;
+}
+.W0{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.eyeh{
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+.p0{
+    color : rgb(103, 102, 102);
+}
+.btn5{
+    color : white;
+    background-color: rgb(73, 245, 254);
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    font-size: 22px;
+}
+.h11{
+    margin-top: 25px;
+}
+.h22{
+    margin-bottom: 45px;
+}
+.img5{
+    border-radius: 50%;
+    width: 100px;
+}
+.contain{
+    position: relative;
+    top: 90%;
+    display: flex;
+    margin-bottom: 80px;
+    width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+    
+}
+.contain2{
+    margin-left: 40px;
+}
+.over::after{
+    background-color: black;
+}
+.finish{
+    width: 100%;
+    height: 200vh;
+
+    
+}
+
+.all{
+    position: relative;
+}
+.texte{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 200;
+    color : white;
+    text-align: center;
+    display: flex;
+}
+input , textarea{
+    background-color: transparent;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+::placeholder{
+    color : white;
+}
+
+.a11{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+   padding: 15px 20px;
+   font-size: 30px;
+    border-radius: 50%; 
+}
+input{
+    padding: 10px 60px;
+ 
+}
+.btn6{
+    background-color: transparent;
+    border : 2px solid white;
+    color : white;
+    padding : 10px 30px;
+}
+
+@media screen and (max-width :992px){
+    .texte{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        z-index: 200;
+        color : white;
+        text-align: center;
+        display: flex;
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.489);
+    }
+    .container{
+        position :relative;
+        top: 100%;
+        left: 34%;
+        transform: translate(-50% , -50%);
+    }
+    .immg{
+        width: 450px;
+        height: 450px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        transition: all 5s infinite;
+        transition-duration: 1s;
+    }
+    .immg:hover{
+       cursor: pointer;
+       padding: 20px;
+    }
+    #features{
+        width: 100%;
+        height: 105vh;
+    }
+    #portfolio{
+        width: 100%;
+        height: 650vh;
+    }
+    #pricing{
+        width: 100%;
+        height: 450vh;
+    }
+    #team{
+        width: 100%;
+        height: 250vh;
+    }
+    #skills{
+        width: 100%;
+        height: 250vh;
+    }
+    #clients{
+        width: 100%;
+        height: 100vh;
+    }
+    #contact{
+        width: 100%;
+        height: 100vh;
+    }
+    .col0{
+        text-align: center;
+        position : relative;
+        left: 50%;
+        transform: translateX(-35%);
+    }
+    .contenu1{
+        position : relative;
+        top: 17%;
+    }
+    .R1{
+        position : relative;
+        top: 25%;
+        text-align: center;
+        width: 350px;
+        left: 55%;
+        transform: translateX(-50%);
+        
+    }
+    .btn2{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 10px 30px;
+        font-size: 20px;
+       font-weight: 600;
+        background-color: rgba(0, 0, 0, 0.444);
+      
+    }
+    hr{
+        width: 50%;
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .h31{
+        margin-top: 25px;
+    }
+    .v1{
+    
+        margin-bottom: 95px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.445),
+                    -5px -5px 15px rgba(0, 0, 0, 0.493);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
